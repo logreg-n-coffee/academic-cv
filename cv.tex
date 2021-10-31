@@ -1,3 +1,7 @@
+% Rui Hu Cirriculum Vitae 
+% Date compiled: see the end of the file
+
+
 %%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Change the font size of your document - 10pt, 12.1pt, etc.
 \documentclass[letterpaper,11pt,oneside]{article}
@@ -5,17 +9,10 @@
 \usepackage{setspace}
 \usepackage{hyperref}
 
-\usepackage{graphicx}
-\graphicspath{ {images/}} %upload your signature to this file
-%Change the margins to fit your CV/resume content
-\usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
-
-%Skype information - include your Skype name for a link to add you on Skype
-\newcommand*{\Skype}{\href{skype:john.smith?add}{john.smith}} 
-\newcommand{\Absender}[1][\normalsize]{\Skype} 
+\usepackage[left=0.5in, right=0.5in, bottom=0.5in, top=0.5in]{geometry}
 
 %Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
-\pagenumbering{gobble}
+\pagenumbering{roman}
 
 %%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
 
@@ -24,45 +21,42 @@
 
 %%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
 
-\noindent  \LARGE{\textbf{John Smith}} \\
+\noindent  \LARGE{\textbf{Rui Hu}} \\
 \vspace{-2ex} 
 \hrule 
 \normalsize
 
-%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
-% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
-
-\begin{center}
-\begin{tabular}{l l}
- Name of University    & \hspace{1in} \href{mailto:john.smith@email.com}{john.smith@email.com} \\
- Department/Institution    & \hspace{1in}  \href{www.johnsmith.com}{www.johnsmith.com}   \\
- Address             & \hspace{1in} Skype: \Absender  \\
- City Name, State 12345-6789 & \hspace{1in} Phone: +1 (123) 456-7899 \\
-\end{tabular}
-\end{center}
-
 \vspace{1em}
+
 
 %%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
 
 \noindent \begin{tabular}{@{} l l}
- \Large{Education}    & \textbf{Most Recent University} \\
-     & Ph.D., Economics, 2015. \\
-     & Fields: International Trade, Monetary Economics, Development \\
-     & M.A., Political Science, 2013. \\
+	
+	 \large\textsc{Contact}    & \emph{Email}:  \href{mailto:hurui141@gmail.com}{hurui141@gmail.com} \\ 
+	\large\textsc{Information} & \emph{Website}: \texttt{\href{https://hiruihu.com/}{hiruihu.com}} \\
+	& \\
+
+ \large\textsc{Education}    & \textbf{Northern Arizona University}, Flagstaff, AZ \hspace*{0pt}\hfill Start - End \\
+     & \indent Ph.D., Economics, 2015. \\
+     & \indent Fields: International Trade, Monetary Economics, Development \\
+     & \indent M.A., Political Science, 2013. \\
      & \\
-     & \textbf{University of Illinois Champaign-Urbana} \\
-     & B.A., Economics, 2005. \\
+     & \textbf{University of Illinois Champaign-Urbana} \hspace*{0pt}\hfill Start - End \\
+     & \indent B.A., Economics, 2005. \\
      & \\
- \Large{Dissertation}    & ``Title of Dissertation" \\
-    & \parbox{5.0in}{Short description/summary of research and estimation techniques. This can be several lines long because of the paragraph box.}\\
+    
+ \large\textsc{Dissertation}    & ``Title of Dissertation" \\
+    & \parbox{6.0in}{Short description/summary of research and estimation techniques. This can be several lines long because of the paragraph box.}\\
     & \\
- \Large{Research}    & \textbf{Department, University} \\
+   
+ \large\textsc{Research}    & \textbf{Department, University} \\
      & Postdoctoral Research Associate \\
      & Project: Title of Research \\
      & \\
-  \Large{Teaching}   & \textbf{Department, University} \\
+
+  \large\textsc{Teaching}   & \textbf{Department, University} \\
      & Instructor, Fundamentals of the Global Economy, 2016 \\
      & \\
      &\textbf{Department, University} \\
@@ -73,55 +67,24 @@
      & Job Title, Course Name, 2013 \\
      & Job Title, Course Name, 2013 \\
      & \\
- \Large{Awards and }    & \textbf{Graduate Student Teacher of the Year, Department} \\
-  \Large{Fellowships}   & Course Name, 2014-2015 \\
+
+ \large\textsc{Awards and }    & \textbf{Graduate Student Teacher of the Year, Department} \\
+  \large\textsc{Fellowships}   & Course Name, 2014-2015 \\
      & \\
      & \textbf{Fulbright Scholarship} \\
      & City, Country, 2006-2009 \\
      & \\
-  \Large{Languages}   & English (native), German (advanced) \\
-\Large{and Skills}    & Stata, \LaTeX, Eviews, Mathematica  \\
+
+  \large\textsc{Languages}   & English (native), German (advanced) \\
+  \large\textsc{and Skills}    & Stata, \LaTeX, Eviews, Mathematica  \\
+     & \\
+
+  \large\textsc{Date complied}   & October 30, 2021 \\
 
 \end{tabular}
 
 \newpage
 
-\noindent \begin{tabular}{@{} l l}
- \Large{Education}    & \textbf{Most Recent University} \\
-     & Ph.D., Economics, 2015. \\
-     & Fields: International Trade, Monetary Economics, Development \\
-     & M.A., Political Science, 2013. \\
-     & \\
-     & \textbf{University of Illinois Champaign-Urbana} \\
-     & B.A., Economics, 2005. \\
-     & \\
- \Large{Dissertation}    & ``Title of Dissertation" \\
-    & \parbox{5.0in}{Short description/summary of research and estimation techniques. This can be several lines long because of the paragraph box.}\\
-    & \\
- \Large{Research}    & \textbf{Department, University} \\
-     & Postdoctoral Research Associate \\
-     & Project: Title of Research \\
-     & \\
-  \Large{Teaching}   & \textbf{Department, University} \\
-     & Instructor, Fundamentals of the Global Economy, 2016 \\
-     & \\
-     &\textbf{Department, University} \\
-     & Job Title, Course Name, 2014-2015 \\
-     & Job Title, Course Name, 2012-2014 \\
-     & \\
-     & \textbf{Department, University} \\
-     & Job Title, Course Name, 2013 \\
-     & Job Title, Course Name, 2013 \\
-     & \\
- \Large{Awards and }    & \textbf{Graduate Student Teacher of the Year, Department} \\
-  \Large{Fellowships}   & Course Name, 2014-2015 \\
-     & \\
-     & \textbf{Fulbright Scholarship} \\
-     & City, Country, 2006-2009 \\
-     & \\
-  \Large{Languages}   & English (native), German (advanced) \\
-\Large{and Skills}    & Stata, \LaTeX, Eviews, Mathematica  \\
-
-\end{tabular}
+% Type anything here
 
 \end{document}
