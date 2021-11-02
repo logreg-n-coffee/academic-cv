@@ -11,8 +11,14 @@
 
 \usepackage[left=0.5in, right=0.5in, bottom=0.5in, top=0.5in]{geometry}
 
+% The following function only adds the current page at the end of the page
 %Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
-\pagenumbering{roman}
+%\pagenumbering{arabic}
+
+% Page foot - current page and last page 
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\cfoot{\thepage of \pageref{lastpage}}
 
 %%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
 
@@ -46,7 +52,7 @@
      	- Created and processed datasets, corpora, and models for linguistics-associated tasks \\
      	- Analyzed large amount of language data, identified the best practices and improved procedures for linguistic and computational tasks \\
      	- Engaged in text labeling and tagging and demonstrated the ability to identify errors and preform edits / annotation 
-     } \vspace{0.25em} \\
+     } \vspace{0.5em} \\
  
      & \textbf{The Chinese University of Hong Kong}, Shatin, Hong Kong \hspace*{0pt}\hfill 08/2017 - 05/2018 \\
      & \indent M.A. in Translation \\
@@ -54,17 +60,17 @@
      	- Graduated with a GPA of 3.338/4.000 (Top 3\%) \\
      	- Automated computer-assisted translation and text analysis \\ 
      	- Conducted translation and interpretation tasks of all types of registers
-     } \vspace{0.25em} \\
+     } \vspace{0.5em} \\
 
 	& \textbf{Hunan University}, Changsha, Hunan, China \hspace*{0pt}\hfill 09/2013 - 06/2017 \\
 	& \indent B.A. in English \\
-	& \indent \emph{Minor}: Computer Science (course-based) \\
+	& \indent \emph{Minor}: Computer Science (credit-based) \\
 	& \indent \emph{Emphasis}: Applied Linguistics \\
 	& \indent \parbox{5.7in}{
 	- Graduated with Honors, with a GPA of 4.03/4.50 (Top 1\%) \\
 	- Awarded National Scholarships by the Ministry of Education of
-	China \\ 
-     } \vspace{0.25em} \\
+	China
+     } \vspace{0.5em} \\
 	
 	& \textbf{Arizona State University}, Tempe, AZ \hspace*{0pt}\hfill 09/2013 - 06/2017 \\
 	& \indent Visiting Student - English (Literature) \\
@@ -72,50 +78,122 @@
 		- Achieved a GPA of 4.00/4.00 (Top 1\%) \\
 		- Included in the Dean's List in Fall 2016 and Spring 2017 \\
 		- Honored as the Face of ASU 
-     } \\
- 	& \\
+     } \vspace{0.5em}\\
  	& \\
     
 	\large\textsc{Awards and }    & \textbf{Graduate Teaching Assistantship} \hspace*{0pt}\hfill 2019-2021 \\
-	\large\textsc{Honors}   & Northern Arizona University, \$68,000 \vspace{0.5em} \\
+	\large\textsc{Honors}   & \indent Northern Arizona University, \$68,000 \vspace{0.5em} \\
 
 	& \textbf{Teaching Assistant Award} \hspace*{0pt}\hfill 2019 \\
-	& Washington University in St. Louis - ALLEX Teacher Training Institute \vspace{0.5em} \\
+	& \indent Washington University in St. Louis - ALLEX Teacher Training Institute \vspace{0.5em} \\
 
 	& \textbf{Chinese Government Scholarship} \hspace*{0pt}\hfill 2016-2017 \\
-	& China Scholarship Council, \$13,500 \vspace{0.25em} \\
+	& \indent China Scholarship Council, \$13,500 \vspace{0.25em} \\
 
 	& \textbf{First Prize at the 3rd National Business English Practice Contest, Final} \hspace*{0pt}\hfill 2015 \\
-	& Ministry of Education, China, CNY1,000 (\~\$150) \vspace{0.25em} \\
+	& \indent Ministry of Education, China, CNY1,000 (\~\$150) \vspace{0.25em} \\
 	
 	& \textbf{National Scholarship} \hspace*{0pt}\hfill 2014-2015 \\
-	& Ministry of Education, China, CNY8,000 (\~\$1,250) \vspace{0.25em} \\	
+	& \indent Ministry of Education, China, CNY8,000 (\~\$1,250) \vspace{0.25em} \\	
 	
 	& \textbf{National Scholarship} \hspace*{0pt}\hfill 2013-2014 \\
-	& Ministry of Education, China, CNY8,000 (\~\$1,250) \vspace{0.25em} \\	
+	& \indent Ministry of Education, China, CNY8,000 (\~\$1,250) \vspace{0.25em} \\	
 
 	& \textbf{Merit Student} \hspace*{0pt}\hfill 2013-2015 \\
-	& Hunan University, Hunan, China \\	
+	& \indent Hunan University, Hunan, China \\	
 	
 \end{tabular}
 
 
 \noindent \begin{tabular}{@{} l l}
-
+& \\ 
+& \\
 \large\textsc{Research}    & \textbf{Building a Twitter Scraper \& a  Dictionary-based Sentiment Analyzer} \\
-\large\textsc{Projects} & Northern Arizona University, Completed individually \hspace*{0pt}\hfill Spring 2021 \\
-& \indent \parbox{5.7in}{
+\large\textsc{Highlights} & \indent Northern Arizona University, Completed individually \hspace*{0pt}\hfill Spring 2021 \\
+& \indent \parbox{5.9in}{
 - Created several Python programs and collected Tweets (N = 3,200) from
 Twitter and built a corpus of Tweets \\
 - Created a prototype dictionary-based sentiment analyzer and created a
 scoring system of the sentiment \\
 - Compared the scoring by the prototype dictionary-based sentiment analyzer against the one by pre-trained machine learning sentiment analyzer \\
 - Discussed the implications for sentiment dictionary building and applied linguistics research
-} \vspace{0.5em}\\
-& \\
+} \vspace{1em}\\
 
-\large\textsc{Teaching}   & \textbf{Department, University} \\
-& Instructor, Fundamentals of the Global Economy, 2016 \\
+& \textbf{Second Language (L2) English Speaker Analysis} \\
+& \indent Northern Arizona University, Completed individually \hspace*{0pt}\hfill Fall 2020 \\
+& \indent \parbox{5.9in}{
+- Interviewed a non-native English speaker (N = 1) and collected the speech data by recording the interview with a semi-structured protocol \\
+- Comprehensively analyzed the speech data at the levels of phonetics and phonology, morphology, syntax, and semantics/lexicon, with the main features listed below: \\
+--- Phonetics and phonology: stress, rhythm, accuracy of vowels, consonants (with accurate transcription using IPA when necessary) \\
+--- Morphology: inflectional and derivational morphemes \\
+--- Syntax: irregular past, comparative and superlative degrees of an adjective, third-person singular form \\
+--- Semantics and word choice: involving correct usage of words \\
+- Described the characteristics of the speaker's speech and summarized the speaker's strengths and weaknesses \\
+- From the perspective of L1-L2 transfer, analyzed the features of the speaker's speech and summarized the features that were rooted in the speaker's first language (L1) and the ones that were independent of the speaker's L1 \\
+- Provided a summary of potential instructional priorities on improving the speaker's English speaking
+} \vspace{1em}\\
+
+& \textbf{Characteristics of a Reading Comprehension Assessment:} \\
+& \emph{\textbf{\hspace{0.75em}Measures of Validity and Reliability}} \\
+& \indent Northern Arizona University, Completed individually \hspace*{0pt}\hfill Fall 2020 \\
+& \indent \parbox{5.9in}{
+	- Interviewed a non-native English speaker (N = 1) and collected the speech data by recording the interview with a semi-structured protocol \\
+	- Comprehensively analyzed the speech data at the levels of phonetics and phonology, morphology, syntax, and semantics/lexicon, with the main features listed below: \\
+	--- Phonetics and phonology: stress, rhythm, accuracy of vowels, consonants (with accurate transcription using IPA when necessary) \\
+	--- Morphology: inflectional and derivational morphemes \\
+	--- Syntax: irregular past, comparative and superlative degrees of an adjective, third-person singular form \\
+	--- Semantics and word choice: involving correct usage of words \\
+	- Described the characteristics of the speaker's speech and summarized the speaker's strengths and weaknesses \\
+	- From the perspective of L1-L2 transfer, analyzed the features of the speaker's speech and summarized the features that were rooted in the speaker's first language (L1) and the ones that were independent of the speaker's L1 \\
+	- Provided a summary of potential instructional priorities on improving the speaker's English speaking
+} \vspace{1em}\\
+
+& \\
+\end{tabular}
+
+
+\noindent \begin{tabular}{@{} l l}
+& \\
+& \\
+\large\textsc{Teaching} & \textbf{Academies of Mathematics and Science (AMS), South Mountain}, Phoenix, AZ \\ % use \hspace to make the table wider
+\large\textsc{Experience} & \indent Foreign Language Teacher  \hspace*{0pt}\hfill 07/2021 - Present \hspace{0.5em} \\
+& \indent \parbox{5.6in}{
+	- Teach Mandarin Chinese at K-8 levels as a full-time teacher \\
+	- Use measurable data to track student performance and enrich their progress with visible results \\
+	- Stick to district and Arizona curriculum standards to teach students above and below grade-level through a differentiated approach 
+} \vspace{1em}\\
+
+& \textbf{Northern Arizona University (NAU)}, Flagstaff, AZ \\ % use \hspace to make the table wider
+& \indent Instructor of Chinese  \hspace*{0pt}\hfill 08/2019 - 04/2021 \hspace{0.5em} \\
+& \indent \parbox{5.6in}{
+- Taught CHI 101, 102, 201, and 202 as a part-time instructor \\ 
+- Assisted in curriculum design and management \\
+- Designed curriculum and created test items \\
+- Received exceptional student satisfaction rate
+} \vspace{1em}\\
+
+& \textbf{Washington University in St. Louis (WUSTL)}, St. Louis, MO \\ % use \hspace to make the table wider
+& \indent WUSTL-ALLEX Teacher Training Institute Practice Teacher  \hspace*{0pt}\hfill 06/2019 - 07/2021 \hspace{0.5em} \\
+& \indent \parbox{5.6in}{
+- Co-taught CHI 101 in Summer 2019 \\
+- Underwent intensive full-time training included basic principles of effective Chinese language pedagogy, classroom teaching techniques, the linguistic analysis of Chinese
+} \vspace{1em}\\
+
+\large\textsc{Professional} & \textbf{Global Launch, Arizona State University (ASU)}, Tempe, AZ \\ 
+\large\textsc{Experience} & \indent Chinese - English Interpreter \& Translator, \emph{part-time} \hspace*{0pt}\hfill 09/2016 - 12/2016 \hspace{0.5em} \\
+& \indent \parbox{5.6in}{
+- Performed Chinese-English consecutive interpretation and translation for the visiting scholars from China, PAC-12 professional coaches and experts from ASU, National Collegiate Athletic Association (NCAA) and Pacific-12 (PAC-12)
+} \vspace{1em}\\
+
+& \textbf{1000 Internet and Culture Studio, Hunan University (HNU)}, Changsha, China \\ 
+& \indent Full Stack Developer, \emph{part-time} \hspace*{0pt}\hfill 12/2013 - 06/2016
+ \hspace{0.5em} \\
+& \indent \parbox{5.6in}{
+	- Worked in the core developer team on several projects involving comprehensive expertise in full stack developer. Highlight projects include: \emph{Grades Lookup System}, \emph{Incoming Student Orientation Site}, and \emph{HNU Online Bulletin Board}. \\
+	- Collaborated closely with technical and non-technical team members, especially designers and content specialists to delivered up-to-date website \\
+	- Performed code optimization and refactorization and built simple, sustainable, and versatile code
+} \vspace{1em}\\
+
 & \\
 &\textbf{Department, University} \\
 & Job Title, Course Name, 2014-2015 \\
@@ -131,12 +209,14 @@ scoring system of the sentiment \\
 \large\textsc{and Skills}    & Stata, \LaTeX, Eviews, Mathematica  \\
 & \\
 
-\large\textsc{Date complied}   & October 30, 2021 \\
+\large\textsc{Date complied}   & Monday November 1, 2021 \\
 
 \end{tabular}
-
-
 
 % Type anything here
 
 \end{document}
+
+% To do list
+% add service: nau officer - cuhk officer
+% internship experience 1000 / nau website
